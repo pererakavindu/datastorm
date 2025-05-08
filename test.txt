@@ -1,0 +1,23 @@
+Row ID	Unique identifier of the data record.
+agent_code	Unique identifier of the insurance agent.
+agent_age	Age of the agent.
+agent_join_month	Month in which the agent joined the company.
+first_policy_sold_month	Month in which the agent sold their first policy.
+year_month	Year and month of the recorded data.
+unique_proposals_last_7_days	Number of unique proposals created in the last 0 to 7 days.
+unique_proposals_last_15_days	Number of unique proposals created in the last 7 to 15 days.
+unique_proposals_last_21_days	Number of unique proposals created in the last 15 to 21 days.
+unique_proposal	Total number of unique proposals submitted in the recorded month.
+unique_quotations_last_7_days	Number of unique quotations generated in the last 0 to 7 days.
+unique_quotations_last_15_days	Number of unique quotations generated in the last 7 to 15 days.
+unique_quotations_last_21_days	Number of unique quotations generated in the last 15 to 21 days.
+unique_quotations	Total number of unique quotations in the recorded month.
+unique_customers_last_7_days	Number of unique customers contacted in the last 0 to 7 days.
+unique_customers_last_15_days	Number of unique customers contacted in the last 7 to 15 days.
+unique_customers_last_21_days	Number of unique customers contacted in the last 15 to 21 days.
+unique_customers	Total number of unique customers contacted in the recorded month.
+new_policy_count	Number of new insurance policies sold during that month
+ANBP_value	Annualized New Business Premium value per agent.
+net_income	Net income earned by the agent.
+number_of_policy_holders	Total number of current policyholders assigned to the agent.
+number_of_cash_payment_policies	Number of policies paid for using cash.
