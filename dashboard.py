@@ -1,8 +1,13 @@
 import streamlit as st
 import pandas as pd
 
-dataFrame = pd.read_csv('test_storming_round.csv')
+# Define the pages
+prediction = st.Page("dashboard/prediction.py", title="Prediction")
+classification = st.Page("dashboard/classication.py", title="Classification")
+visualization = st.Page("dashboard/recommendation.py", title="Recommendation")
 
-st.title('Agent performance dashboard')
+# Set up navigation
+pg = st.navigation([prediction, classification, visualization])
 
-st.line_chart(dataFrame.groupby('agent_code')['net_income'].sum())
+# Run the selected page
+pg.run()
